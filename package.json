@@ -1,0 +1,22 @@
+{
+  "name": "geeksforgeeks-problem",
+  "version": "1.0.0",
+  "description": "Geeksforgeeks-Problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishnuksharma/Geeksforgeeks-Problem.git"
+  },
+  "keywords": [
+    "Geeksforgeeks-Problem"
+  ],
+  "author": "Vishnu Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishnuksharma/Geeksforgeeks-Problem/issues"
+  },
+  "homepage": "https://github.com/vishnuksharma/Geeksforgeeks-Problem#readme"
+}
