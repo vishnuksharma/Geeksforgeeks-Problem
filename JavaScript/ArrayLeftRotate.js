@@ -22,7 +22,8 @@
 
 function rotLeft(a, d) {
     const len = a.length;
-    const rotateTime = d>len ? len%d : d;
+    const rotateTime = d>len ? d%len : d;
+    console.log(rotateTime);
     let temp = 0;
     for (let i = 0; i<d; i++){
         // for (let i = 0; i<rotateTime; i++){
@@ -52,11 +53,11 @@ const leftRoateArray = (a, d) => {
     return a;
 }
 
-const a = [1,2,3,4,5];
-const d =4;
-const rotLeftRes = leftRoateArray(a, d);
-console.log('rotLeftRes: ', rotLeftRes);
+// const a = [1,2,3,4,5];
+// const d =4;
+// const rotLeftRes = leftRoateArray(a, d);
+// console.log('rotLeftRes: ', rotLeftRes);
 const b = [41, 73, 89, 7, 10, 1, 59, 58, 84, 77, 77, 97, 58, 1, 86, 58, 26, 10, 86, 51];
-const d1 = 10;
-const rotLeftRes1 = rotLeft(b, d1);
-// console.log('rotLeftRes1: ', rotLeftRes1);
+const d1 = 28;
+const rotLeftRes1 = rotLeft([1,2,3,4,5], 203);
+console.log('rotLeftRes1: ', rotLeftRes1);
